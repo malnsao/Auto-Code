@@ -11,6 +11,7 @@ let author = require('os').homedir().split('\\').pop();
 
 
 
+
 //检测是否存在文件夹
 let exists = function () {
     return new Promise((res, rej) => {
