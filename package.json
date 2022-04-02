@@ -1,33 +1,18 @@
 {
-  "name": "Auto-Code",
+  "name": "auto-code",
   "version": "1.0.0",
-  "description": "前端代码自动生成",
+  "description": "",
+  "bin": {
+    "autogo": "./bin/autogo.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/malnsao/Auto-Code.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/malnsao/Auto-Code/issues"
-  },
-  "homepage": "https://github.com/malnsao/Auto-Code#readme",
   "devDependencies": {
-    "husky": "^7.0.4",
-    "moment": "^2.29.1",
-    "prettier": "^2.5.1"
-  },
-  "lint-staged": {
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
+    "js-yaml": "^4.1.0"
   }
 }
